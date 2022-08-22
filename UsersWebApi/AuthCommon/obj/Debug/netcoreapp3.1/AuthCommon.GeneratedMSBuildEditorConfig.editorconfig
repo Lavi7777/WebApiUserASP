@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = AuthCommon
+build_property.ProjectDir = D:\WorkNew\AspNetTestProject\UsersWebApi\UsersWebApi\AuthCommon\

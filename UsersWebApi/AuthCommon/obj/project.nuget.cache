@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "/XV3I6JM1rebtIIhqi3Oh9cbW0ck0KxCW12pBm8muQTVuhLP2sVfMSHJCT9J7rtskjggqZ8WBPvCKYPCIqlvFw==",
+  "success": true,
+  "projectFilePath": "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\AuthCommon\\AuthCommon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Den\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Den\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",
+    "C:\\Users\\Den\\.nuget\\packages\\microsoft.identitymodel.logging\\6.22.0\\microsoft.identitymodel.logging.6.22.0.nupkg.sha512",
+    "C:\\Users\\Den\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.22.0\\microsoft.identitymodel.tokens.6.22.0.nupkg.sha512",
+    "C:\\Users\\Den\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
