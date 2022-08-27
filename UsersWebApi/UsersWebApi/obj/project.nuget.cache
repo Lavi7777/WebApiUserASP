@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RP4bckvFlq6n9l+YLZsob3P9cq7DGuCGxWFc4O5f4l8fDWLkmiAkrNSKkLgcFLymsljJOaWq1iX7If85ZIQAHg==",
+  "dgSpecHash": "p+Y072PN4k3Dd5QDJ9XS2aNa2qllZEEYQheSsoPVYm8o9Jd+YinWAB1oNcOAoMOvIydx+rKGZ/uRpkxmrggcEA==",
   "success": true,
-  "projectFilePath": "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\UsersWebApi\\UsersWebApi.csproj",
+  "projectFilePath": "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\UsersWebApi\\UsersWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Den\\.nuget\\packages\\mailkit\\3.3.0\\mailkit.3.3.0.nupkg.sha512",
     "C:\\Users\\Den\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.0\\microsoft.aspnetcore.authentication.jwtbearer.3.1.0.nupkg.sha512",

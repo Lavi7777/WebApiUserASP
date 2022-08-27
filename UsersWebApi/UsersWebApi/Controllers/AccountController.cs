@@ -84,19 +84,27 @@ namespace UsersWebApi.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-
+        [Route("register")]
         [HttpPost]
         public JsonResult Post(User user)
         {
-           
-           
+            var role = "";
+            if (user.Role == null)
+            {
+                role = "user";
+            }
+            else
+            {
+                role = user.Role;
+            }
+
             var userNew = new User()
             {
                 Password = HashPasswordHelper.HashPassword(user.Password),
                 Name = user.Name,
                 Email = user.Email,
                 Phone = user.Phone,
-                Role = user.Role
+                Role = role
             };
 
             _context.Users.Add(userNew);
@@ -112,6 +120,23 @@ namespace UsersWebApi.Controllers
         {
             var table = _context.Users.ToList();
             return new JsonResult(table);
+        }
+
+        [HttpDelete]
+        [Authorize]
+        [Route("user/{id}")]
+        public JsonResult Delete(int id)
+        {
+            
+
+            var table = _context.Users.ToList();
+            var itemToRemove = _context.Users.SingleOrDefault(x => x.Id == id);
+
+
+            _context.Users.Remove(itemToRemove);
+            _context.SaveChanges();
+
+            return new JsonResult("Delete Success");
         }
     }
 }

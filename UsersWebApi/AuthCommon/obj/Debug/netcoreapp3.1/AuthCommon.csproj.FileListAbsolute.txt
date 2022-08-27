@@ -8,3 +8,13 @@ D:\WorkNew\AspNetTestProject\UsersWebApi\UsersWebApi\AuthCommon\obj\Debug\netcor
 D:\WorkNew\AspNetTestProject\UsersWebApi\UsersWebApi\AuthCommon\obj\Debug\netcoreapp3.1\AuthCommon.csproj.CoreCompileInputs.cache
 D:\WorkNew\AspNetTestProject\UsersWebApi\UsersWebApi\AuthCommon\obj\Debug\netcoreapp3.1\AuthCommon.dll
 D:\WorkNew\AspNetTestProject\UsersWebApi\UsersWebApi\AuthCommon\obj\Debug\netcoreapp3.1\AuthCommon.pdb
+C:\Work\ASPAngularAPI\WebAPIUserASP\WebApiUserASP\UsersWebApi\AuthCommon\bin\Debug\netcoreapp3.1\AuthCommon.deps.json
+C:\Work\ASPAngularAPI\WebAPIUserASP\WebApiUserASP\UsersWebApi\AuthCommon\bin\Debug\netcoreapp3.1\AuthCommon.dll
+C:\Work\ASPAngularAPI\WebAPIUserASP\WebApiUserASP\UsersWebApi\AuthCommon\bin\Debug\netcoreapp3.1\AuthCommon.pdb
+C:\Work\ASPAngularAPI\WebAPIUserASP\WebApiUserASP\UsersWebApi\AuthCommon\obj\Debug\netcoreapp3.1\AuthCommon.csproj.AssemblyReference.cache
+C:\Work\ASPAngularAPI\WebAPIUserASP\WebApiUserASP\UsersWebApi\AuthCommon\obj\Debug\netcoreapp3.1\AuthCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\ASPAngularAPI\WebAPIUserASP\WebApiUserASP\UsersWebApi\AuthCommon\obj\Debug\netcoreapp3.1\AuthCommon.AssemblyInfoInputs.cache
+C:\Work\ASPAngularAPI\WebAPIUserASP\WebApiUserASP\UsersWebApi\AuthCommon\obj\Debug\netcoreapp3.1\AuthCommon.AssemblyInfo.cs
+C:\Work\ASPAngularAPI\WebAPIUserASP\WebApiUserASP\UsersWebApi\AuthCommon\obj\Debug\netcoreapp3.1\AuthCommon.csproj.CoreCompileInputs.cache
+C:\Work\ASPAngularAPI\WebAPIUserASP\WebApiUserASP\UsersWebApi\AuthCommon\obj\Debug\netcoreapp3.1\AuthCommon.dll
+C:\Work\ASPAngularAPI\WebAPIUserASP\WebApiUserASP\UsersWebApi\AuthCommon\obj\Debug\netcoreapp3.1\AuthCommon.pdb

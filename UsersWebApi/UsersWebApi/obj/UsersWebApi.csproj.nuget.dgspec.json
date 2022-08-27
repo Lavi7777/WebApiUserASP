@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\UsersWebApi\\UsersWebApi.csproj": {}
+    "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\UsersWebApi\\UsersWebApi.csproj": {}
   },
   "projects": {
-    "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\AuthCommon\\AuthCommon.csproj": {
+    "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\AuthCommon\\AuthCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\AuthCommon\\AuthCommon.csproj",
+        "projectUniqueName": "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\AuthCommon\\AuthCommon.csproj",
         "projectName": "AuthCommon",
-        "projectPath": "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\AuthCommon\\AuthCommon.csproj",
+        "projectPath": "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\AuthCommon\\AuthCommon.csproj",
         "packagesPath": "C:\\Users\\Den\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\AuthCommon\\obj\\",
+        "outputPath": "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\AuthCommon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Den\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -64,24 +66,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\UsersWebApi\\UsersWebApi.csproj": {
+    "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\UsersWebApi\\UsersWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\UsersWebApi\\UsersWebApi.csproj",
+        "projectUniqueName": "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\UsersWebApi\\UsersWebApi.csproj",
         "projectName": "UsersWebApi",
-        "projectPath": "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\UsersWebApi\\UsersWebApi.csproj",
+        "projectPath": "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\UsersWebApi\\UsersWebApi.csproj",
         "packagesPath": "C:\\Users\\Den\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\UsersWebApi\\obj\\",
+        "outputPath": "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\UsersWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Den\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -96,8 +100,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\AuthCommon\\AuthCommon.csproj": {
-                "projectPath": "D:\\WorkNew\\AspNetTestProject\\UsersWebApi\\UsersWebApi\\AuthCommon\\AuthCommon.csproj"
+              "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\AuthCommon\\AuthCommon.csproj": {
+                "projectPath": "C:\\Work\\ASPAngularAPI\\WebAPIUserASP\\WebApiUserASP\\UsersWebApi\\AuthCommon\\AuthCommon.csproj"
               }
             }
           }
@@ -163,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

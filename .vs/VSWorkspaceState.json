@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\UsersWebApi",
+    "\\UsersWebApi\\UsersWebApi"
   ],
+  "SelectedNode": "\\UsersWebApi\\UsersWebApi\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }
