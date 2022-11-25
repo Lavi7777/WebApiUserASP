@@ -14,7 +14,8 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using UsersWebApi.Helpers;
 using UsersWebApi.Models;
-
+using MailKit.Net.Smtp;
+using MimeKit;
 
 
 
@@ -51,11 +52,29 @@ namespace UsersWebApi.Controllers
             {
                 var token = GenerateJWT(user);
 
-                return Ok(new { access_token = token });
+                return Ok(new { access_token = token,role=user.Role,userId=user.Id });
             }
 
             return Unauthorized();
         }
+
+        [Route("verify")]
+        [HttpPost]
+
+        public IActionResult Verify([FromBody] Login request)
+        {
+            var user = AuthenticateUser(request.Email, request.Password);
+
+            if (user != null)
+            {
+                var token = GenerateJWT(user);
+
+                return Ok(new { access_token = token, role = user.Role, userId = user.Id });
+            }
+
+            return Unauthorized();
+        }
+
 
         private User AuthenticateUser(string email, string password)
         {
@@ -84,28 +103,21 @@ namespace UsersWebApi.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
         [Route("register")]
         [HttpPost]
         public JsonResult Post(User user)
         {
-            var role = "";
-            if (user.Role == null)
-            {
-                role = "user";
-            }
-            else
-            {
-                role = user.Role;
-            }
-
+            
+            
             var userNew = new User()
             {
                 Password = HashPasswordHelper.HashPassword(user.Password),
                 Name = user.Name,
                 Email = user.Email,
                 Phone = user.Phone,
-                Role = role
-            };
+                Role = user.Role
+        };
 
             _context.Users.Add(userNew);
             _context.SaveChanges();
@@ -118,8 +130,39 @@ namespace UsersWebApi.Controllers
 
         public JsonResult GetUsers()
         {
-            var table = _context.Users.ToList();
+           
+            var table = (from user in _context.Users join role in _context.Roles
+                        on user.Role equals role.Id 
+                        select new { 
+                        user.Id,
+                        user.Name,
+                        user.Email,
+                        user.Phone,
+                        role.Role
+                        }).ToList();
             return new JsonResult(table);
+        }
+
+        [HttpGet]
+        [Authorize]
+        [Route("user/{userId}")]
+
+        public JsonResult GetUser(int userId)
+        {
+
+            var userResponse = (from user in _context.Users
+                         join role in _context.Roles
+                         on user.Role equals role.Id
+                         where user.Id == userId
+                         select new
+                         {
+                             user.Id,
+                             user.Name,
+                             user.Email,
+                             user.Phone,
+                             role.Role
+                         }).FirstOrDefault();
+            return new JsonResult(userResponse);
         }
 
         [HttpDelete]

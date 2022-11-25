@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsersWebApi", "UsersWebApi\UsersWebApi.csproj", "{23D52917-D6A0-46C9-B8E0-B6CCC02E39C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthCommon", "AuthCommon\AuthCommon.csproj", "{495E3256-5602-4B43-BE41-FA308D9637BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthCommon", "AuthCommon\AuthCommon.csproj", "{495E3256-5602-4B43-BE41-FA308D9637BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

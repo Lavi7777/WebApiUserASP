@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UsersWebApi.Models
 {
-    public class User
+    public class User 
     {
         public int? Id { get; set; }
 
@@ -18,6 +18,8 @@ namespace UsersWebApi.Models
 
         public string Phone { get; set; }
 
-        public string Role { get; set; }
+        public int Role { get; set; }
+
+        public string? VerificationToken { get; set; }
     }
 }
