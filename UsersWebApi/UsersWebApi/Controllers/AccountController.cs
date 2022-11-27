@@ -52,7 +52,7 @@ namespace UsersWebApi.Controllers
             {
                 var token = GenerateJWT(user);
 
-                return Ok(new { access_token = token,role=user.Role,userId=user.Id });
+                return Ok(new { access_token = token,role=user.Role });
             }
 
             return Unauthorized();
@@ -61,18 +61,16 @@ namespace UsersWebApi.Controllers
         [Route("verify")]
         [HttpPost]
 
-        public IActionResult Verify([FromBody] Login request)
+        public IActionResult Verify(string token)
         {
-            var user = AuthenticateUser(request.Email, request.Password);
+            var user = _context.Users.FirstOrDefault(u => u.VerificationToken == token);
 
-            if (user != null)
+            if (user == null)
             {
-                var token = GenerateJWT(user);
-
-                return Ok(new { access_token = token, role = user.Role, userId = user.Id });
+                return BadRequest("Invalid token.");
             }
 
-            return Unauthorized();
+            return Ok("User Verifyed!");
         }
 
 
